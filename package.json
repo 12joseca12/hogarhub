@@ -5,6 +5,8 @@
   "packageManager": "pnpm@10.32.1",
   "scripts": {
     "start": "expo start",
+    "start:mocks": "EXPO_PUBLIC_USE_MOCKS=1 expo start",
+    "start:real": "EXPO_PUBLIC_USE_MOCKS=0 expo start",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo run:android",
     "ios": "expo run:ios",
