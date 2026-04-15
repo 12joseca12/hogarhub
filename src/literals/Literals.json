@@ -1,0 +1,69 @@
+{
+  "starter": {
+    "explore": {
+      "title": "Explorar",
+      "subtitle": "Esta app incluye código de ejemplo\npara ayudarte a empezar.",
+      "expoDocsCta": "Documentación de Expo",
+      "learnMore": "Saber más",
+      "sections": {
+        "fileBasedRouting": {
+          "title": "Rutas basadas en archivos",
+          "screensIntro": "Esta app tiene dos pantallas: {{screenOne}} y {{screenTwo}}",
+          "layoutIntro": "El archivo de layout en {{layoutFile}} configura el navegador de pestañas."
+        },
+        "platformSupport": {
+          "title": "Soporte para Android, iOS y web",
+          "body": "Puedes abrir este proyecto en Android, iOS y web. Para abrir la versión web, pulsa {{key}} en el terminal que está ejecutando el proyecto."
+        },
+        "images": {
+          "title": "Imágenes",
+          "body": "Para imágenes estáticas, puedes usar los sufijos {{at2x}} y {{at3x}} para proporcionar archivos para diferentes densidades de pantalla."
+        },
+        "themes": {
+          "title": "Componentes con modo claro y oscuro",
+          "body": "Esta plantilla incluye soporte para modo claro y oscuro. El hook {{hookName}} te permite saber el esquema de color actual del usuario para ajustar los colores de la UI."
+        },
+        "animations": {
+          "title": "Animaciones",
+          "body": "Esta plantilla incluye un ejemplo de un componente animado. El componente {{componentFile}} usa {{libraryName}} para animar la apertura de esta ayuda."
+        }
+      }
+    }
+  },
+  "common": {
+    "hintRow": {
+      "tryEditing": "Prueba a editar",
+      "defaultHintPath": "app/index.tsx"
+    },
+    "tabs": {
+      "home": "Inicio",
+      "tasks": "Tareas",
+      "shopping": "Compras",
+      "house": "Casa",
+      "profile": "Perfil"
+    }
+  },
+  "screens": {
+    "home": {
+      "title": "Inicio",
+      "subtitle": "Resumen del hogar y acciones rápidas."
+    },
+    "tasks": {
+      "title": "Tareas",
+      "subtitle": "Área operativa para organizar y revisar responsabilidades."
+    },
+    "shopping": {
+      "title": "Compras",
+      "subtitle": "Lista, despensa y sugerencias prácticas."
+    },
+    "house": {
+      "title": "Casa",
+      "subtitle": "Coordinación del hogar: incidencias, calendario, miembros y más."
+    },
+    "profile": {
+      "title": "Perfil",
+      "subtitle": "Preferencias, tokens, recompensas y ajustes."
+    }
+  }
+}
+

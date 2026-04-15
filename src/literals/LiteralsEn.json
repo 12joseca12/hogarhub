@@ -1,0 +1,69 @@
+{
+  "starter": {
+    "explore": {
+      "title": "Explore",
+      "subtitle": "This starter app includes example\ncode to help you get started.",
+      "expoDocsCta": "Expo documentation",
+      "learnMore": "Learn more",
+      "sections": {
+        "fileBasedRouting": {
+          "title": "File-based routing",
+          "screensIntro": "This app has two screens: {{screenOne}} and {{screenTwo}}",
+          "layoutIntro": "The layout file in {{layoutFile}} sets up the tab navigator."
+        },
+        "platformSupport": {
+          "title": "Android, iOS, and web support",
+          "body": "You can open this project on Android, iOS, and the web. To open the web version, press {{key}} in the terminal running this project."
+        },
+        "images": {
+          "title": "Images",
+          "body": "For static images, you can use the {{at2x}} and {{at3x}} suffixes to provide files for different screen densities."
+        },
+        "themes": {
+          "title": "Light and dark mode components",
+          "body": "This template has light and dark mode support. The {{hookName}} hook lets you inspect the user's current color scheme so you can adjust UI colors accordingly."
+        },
+        "animations": {
+          "title": "Animations",
+          "body": "This template includes an example of an animated component. The {{componentFile}} component uses {{libraryName}} to animate opening this hint."
+        }
+      }
+    }
+  },
+  "common": {
+    "hintRow": {
+      "tryEditing": "Try editing",
+      "defaultHintPath": "app/index.tsx"
+    },
+    "tabs": {
+      "home": "Home",
+      "tasks": "Tasks",
+      "shopping": "Shopping",
+      "house": "House",
+      "profile": "Profile"
+    }
+  },
+  "screens": {
+    "home": {
+      "title": "Home",
+      "subtitle": "Household summary and quick actions."
+    },
+    "tasks": {
+      "title": "Tasks",
+      "subtitle": "Operational area to organize and review responsibilities."
+    },
+    "shopping": {
+      "title": "Shopping",
+      "subtitle": "List, pantry, and practical suggestions."
+    },
+    "house": {
+      "title": "House",
+      "subtitle": "House coordination: incidents, calendar, members, and more."
+    },
+    "profile": {
+      "title": "Profile",
+      "subtitle": "Preferences, tokens, rewards, and settings."
+    }
+  }
+}
+
